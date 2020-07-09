@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/learning.iml" filepath="$PROJECT_DIR$/learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot-mqtt/springboot-mqtt.iml" filepath="$PROJECT_DIR$/springboot/springboot-mqtt/springboot-mqtt.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot/springboot-quartz/springboot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot/springboot-shiro/springboot-shiro.iml" />
     </modules>
   </component>
 </project>

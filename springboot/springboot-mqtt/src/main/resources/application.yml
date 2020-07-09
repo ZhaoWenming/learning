@@ -1,0 +1,9 @@
+mqtt:
+  url: tcp://47.105.170.124:1883
+  client:
+    id: ${random.value}
+  topic: /World
+
+
+server:
+  port: 8001
