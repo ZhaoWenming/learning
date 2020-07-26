@@ -1,2 +1,4 @@
 /springboot/springboot-quartz/target/
 /.idea/
+/spring-proxy/target/
+/springboot/springboot-shiro/target/
