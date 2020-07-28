@@ -9,14 +9,14 @@ package org.zwm.sigleton;
 public class Mgr01 {
 
     //私有构造器,其它类new不了
-    private Mgr01(){
+    private Mgr01() {
 
     }
 
     //此处调用的是无参构造函数，静态参数在类初始化的时候加载
     private static final Mgr01 INSTANCE = new Mgr01();
 
-    public static Mgr01 getInstance(){
+    public static Mgr01 getInstance() {
         return INSTANCE;
     }
 
