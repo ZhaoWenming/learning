@@ -23,6 +23,7 @@
     <modules>
         <module>springboot</module>
         <module>disign-patterns</module>
+        <module>front-end</module>
     </modules>
 
     <properties>
