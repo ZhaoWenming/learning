@@ -13,7 +13,12 @@ action：表单提交的位置，只往什么地方提交表单，可以是网�
 mothod：post，get，提交方式
 -->
 <form action="1.第一个html程序.html" method="get">
-    <!--文本输入框：input type="text"-->
+    <!--
+    文本输入框：input type="text"
+    value="狂神好帅" 默认初始值
+    maxlength="8" 最长能写几个字符
+    size="30" 文本框长度
+    -->
     <p>
         名字：<input type="text" name="username">
     </p>
@@ -25,9 +30,104 @@ mothod：post，get，提交方式
         <input type="submit">
         <input type="reset">
     </p>
+
     <p>
+        <!--
+        radio单选框标签
+        input type="radia"
+        value:单选框的值
+        name：表示组
+        -->
+        性别：<input type="radio" value="boy" name="sex" checked>男
+        <input type="radio" value="girl" name="sex">女
+    </p>
+
+    <p>
+        <!--
+        多选框
+        input type="checkbox"
+        -->
+        爱好：
+        <input type="checkbox" value="sleep" name="hobby">睡觉
+        <input type="checkbox" value="code" name="hobby" checked>敲代码
+        <input type="checkbox" value="chat" name="hobby">聊天
+        <input type="checkbox" value="game" name="hobby">游戏
+    </p>
+
+    <p>
+        <!--
+        按钮
+        input type="button"  普通按钮
+        input type="image"   图片按钮
+        input type="submit"  提交按钮
+        input type="reset"   重置按钮
+        -->
+        按钮：
+        <input type="button" name="btn1" value="点击变长">
+        <input type="image" src="resource/image/1.jpg">
+    </p>
+
+    <p>
+        <!--
+        下拉列表
+        -->
+        国家：
+        <select name="列表名称">
+            <option value="china">中国</option>
+            <option value="us">美国</option>
+            <option value="eth" selected>瑞士</option>
+            <option value="yindu">印度</option>
+        </select>
+    </p>
+
+    <p>
+        <!--
+        文本域
+        cols="50" 列数
+        rows="10" 行数
+        -->
+        反馈：
+        <textarea name="textarea" cols="50" rows="10">文本内容</textarea>
+    </p>
+
+    <p>
+        <!--
+        文件域
+        type="file"
+        -->
+        <input type="file" name="files">
+        <input type="button" value="上传" name="upload">
+    </p>
+
+    <p>
+        <!--邮箱验证-->
+        邮件：
+        <input type="email" name="email">
+        <br>
+        <!--url验证-->
+        url：
+        <input type="url" name="url">
+        <br>
+        <!--数字验证-->
+        数字：
+        <input type="number" name="num" max="100" min="10" step="1">
+        <br>
+        <!--滑块-->
+        滑块：
+        <input type="range" name="voice" min="0" max="100">
+        <br>
+        <!--搜索框-->
+        搜索框：
+        <input type="search" name="search">
+        <br>
+        <input type="submit">
+    <p>
+
+
         <img src="resource/image/表单元素格式.png">
     </p>
+
+
 </form>
 </body>
 </html>
