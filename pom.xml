@@ -22,7 +22,6 @@
     <!--子模块-->
     <modules>
         <module>springboot</module>
-        <module>design-patterns</module>
         <module>disign-patterns</module>
     </modules>
 
