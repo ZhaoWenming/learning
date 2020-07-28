@@ -3,4 +3,6 @@
 /spring-proxy/target/
 /springboot/springboot-shiro/target/
 /disign-patterns/target/
-/springboot/springboot-mqtt/target/
+*.iml
+*.class
+/disign-patterns/disign-patterns.iml
