@@ -1,0 +1,19 @@
+package org.zwm.observer;
+
+public class Client {
+    public static void main(String[] args) {
+        //创建一个weatherData
+        WeatherData weatherData = new WeatherData();
+
+        //创建一个观察者
+        Observer currentConditions = new CurrentConditions();
+        Observer baiduSite = new BaiduSite();
+        //将观察者注册到weatherData
+        weatherData.registerObserver(currentConditions);
+        weatherData.registerObserver(baiduSite);
+
+        //测试
+        System.out.println("通知各个注册的观察者，看看信息");
+        weatherData.setData(10f, 100f, 30.3f);
+    }
+}
